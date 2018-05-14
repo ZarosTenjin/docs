@@ -89,7 +89,7 @@ docker-compose up -d
 
 ## Adapt SeAT's `docker-compose.yml` file to serve Træfik
 
-Since SeAT is being shipped with `ngnix` natively, which exposes two ports to the web. We need to adapt the `docker-compose.yml` file inside SeAT's installation folder. Inside `/opt/seat-docker` comment the `ngnix` part alike
+Since SeAT is being shipped with `nginx` natively, which exposes two ports to the web. We need to adapt the `docker-compose.yml` file inside SeAT's installation folder. Inside `/opt/seat-docker` comment the `nginx` part alike
 
 ````yaml
   nginx:
